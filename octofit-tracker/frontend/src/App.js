@@ -10,16 +10,19 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">OctoFit Tracker</Link>
-            <div className="collapse navbar-collapse">
+            <Link className="navbar-brand fw-bold" to="/">OctoFit Tracker</Link>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item"><Link className="nav-link" to="/activities">Activities</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/leaderboard">Leaderboard</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/teams">Teams</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/users">Users</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/workouts">Workouts</Link></li>
+                <li className="nav-item"><Link className="nav-link text-white" to="/activities">Activities</Link></li>
+                <li className="nav-item"><Link className="nav-link text-white" to="/leaderboard">Leaderboard</Link></li>
+                <li className="nav-item"><Link className="nav-link text-white" to="/teams">Teams</Link></li>
+                <li className="nav-item"><Link className="nav-link text-white" to="/users">Users</Link></li>
+                <li className="nav-item"><Link className="nav-link text-white" to="/workouts">Workouts</Link></li>
               </ul>
             </div>
           </div>
