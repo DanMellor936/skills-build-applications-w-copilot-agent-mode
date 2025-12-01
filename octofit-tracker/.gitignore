@@ -1,0 +1,13 @@
+# Python venv
+backend/venv/
+
+# Node modules
+frontend/node_modules/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Editor files
+.vscode/
+*.swp
